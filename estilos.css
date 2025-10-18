@@ -188,6 +188,25 @@ textarea {
     min-height: 100px;
 }
 
+/*whatsapp fijo en el main*/
+.whatsapp-fijo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-fijo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-fijo img:hover {
+    transform: scale(1.1);
+}
+
 /* PIE DE PAGINA  */
 footer {
     background: linear-gradient(90deg, #f9e6ff, #f3d0ff);
@@ -274,4 +293,5 @@ form button {
 
 .mapa{
     text-align: center;
+
 }
